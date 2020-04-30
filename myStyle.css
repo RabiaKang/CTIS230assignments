@@ -1,35 +1,126 @@
 body {  
-    color:mediumslateblue;  
-    background-color: lavender;
+    color: darkslateblue;  
+    background-color: blanchedalmond;
     font-size:1.2em;
     font-family:Cambria,Georgia, "Book Antiqua", serif;
-}
-h2 {  
-    color:darkorchid;  
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 h3 {  
-    color:fuchsia; 
-    background-color:lightpink;
-    width: fit-content;
-    font-weight:lighter;
-    font-style:italic;
-    font-stretch: expanded;
-    font-family: fantasy,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkslategray; 
+    border: 3mm darkslategray ridge solid;
+   
 }
 em {
-    background-color: lightpink;
-    color: darkgreen;
+    color: darkslategray;
+    font-weight: bolder;
 }
 a:link {  
-    color:maroon;  
-    background-color:lightsalmon;
-text-shadow: mediumseagreen 0.2em;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkslategray;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p {text-indent: 3em;}
+p.intro, p.body1, p.body2, p.body3, p.body4, p.body5 {text-indent: 3em;}
 image {
-    background-color: powderblue;
-    border-image-width: auto;
+        border-image-width: auto;
 }
+h1, h2 {
+    border: 3mm darkslategray ridge solid;
+    color:darkslategray;
+    width:fit-content;
+   font-style:italic;
+    font-stretch: expanded;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p strong {  
+    color:darkslategray;  
+}
+p.conclusion {
+    font-style: oblique;
+    font-weight: 700;
+}
+ 
+img#blahblahblah {  
+    width:55%; 
+    float: left; 
+    margin-right: 1cm;
+  margin-left: 0.7cm;
+
+}
+img#pampampam {
+    width: 40%;
+  float: right;
+}
+h2#itbemyname {
+    letter-spacing: 8px;
+}
+ol li {  
+    margin-bottom: 0.3em;  
+}
+img#hallelujah {
+    float: right;
+    width: 30%;
+    margin-right: 2cm;
+    margin-top: 1cm;
+}
+img#peanutbutter, img#evillaugh{
+    float: right;
+}
+img#evillaugh {
+    margin-left: 7px;
+    
+}
+p.essayheader {backround: #evillaugh; width: 300px;
+     height:150 px; padding: 12px;
+    border:5px ridge brown; margin:20px;
+}
+ 
+a#mixxmixx:visited {
+color: purple;
+font-style: italic;
+}
+ol.sectionslist {
+    line-height: 1.2cm;
+}
+img:hover {
+    width: 5in;
+}
+img#pampampam:hover {
+  width: auto;
+}
+ol li:hover {
+    font-size: 1.2em;
+}
+p.intro:first-letter {
+    font-size: 2em;
+}
+h2#itbemyname {
+    border: 3mm darkslategray ridge;
+    background-color: navajowhite;
+}
+div#abcd {
+    border: 4px darkslategray;
+    padding-left: 3mm;
+    padding-right: 3mm;
+    
+}
+img {
+    border:1mm darkslategray solid;
+}
+ul#workscitedlist {
+    font-size: 4mm;
+}
+ul {font-size: 4mm;}
+div.flexible {  
+    display:flex;  
+    height: 5em;
+    justify-content:center;
+    align-items: center;
+    border: 2px darkslategray;
+background: navajowhite;
+color: darkslategray;
+ text-align: center;
+ padding-left: 3mm;
+    padding-right: 3mm;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+ }
