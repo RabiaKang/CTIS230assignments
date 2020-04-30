@@ -3,8 +3,8 @@ body {
     background-color: blanchedalmond;
     font-size:1.2em;
     font-family:Cambria,Georgia, "Book Antiqua", serif;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 h3 {  
     color:darkslategray; 
@@ -32,7 +32,7 @@ h1, h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p strong {  
-    color:darkslategray;  
+    color:darkblue;  
 }
 p.conclusion {
     font-style: oblique;
@@ -66,12 +66,11 @@ img#peanutbutter, img#evillaugh{
     float: right;
 }
 img#evillaugh {
-    margin-left: 7px;
-    
+    margin-left: 7px;   
 }
 p.essayheader {backround: #evillaugh; width: 300px;
      height:150 px; padding: 12px;
-    border:5px ridge brown; margin:20px;
+    border:5px ridge darkslategray; margin:20px;
 }
  
 a#mixxmixx:visited {
@@ -97,12 +96,6 @@ h2#itbemyname {
     border: 3mm darkslategray ridge;
     background-color: navajowhite;
 }
-div#abcd {
-    border: 4px darkslategray;
-    padding-left: 3mm;
-    padding-right: 3mm;
-    
-}
 img {
     border:1mm darkslategray solid;
 }
@@ -110,17 +103,74 @@ ul#workscitedlist {
     font-size: 4mm;
 }
 ul {font-size: 4mm;}
-div.flexible {  
-    display:flex;  
-    height: 5em;
-    justify-content:center;
-    align-items: center;
-    border: 2px darkslategray;
-background: navajowhite;
-color: darkslategray;
- text-align: center;
- padding-left: 3mm;
-    padding-right: 3mm;
-    padding-top: 2mm;
-    padding-bottom: 2mm;
- }
+section {
+    background-color: navajowhite;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+section#topsection{
+    background-image: url(images/twicetwice.jpg);
+    background-size: cover;
+    position: relative;
+}
+p#headerp {background-color: darkslategray;
+height: 30px;
+margin-bottom: 20px;
+}
+div.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+div.nav {
+    text-align: center;
+    height: 20%;
+    line-height: 2em;
+    width: 30%;
+}
+a#navlink {color: darkslategray;}
+
+section#bottomsection {background-color: navajowhite;}
+p#footerp {background-color: blanchedalmond;
+height: 30px;
+}
+div.footerbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+     
+}
+div.foot {
+    text-align: center;
+    width: 30%;
+    font-size: small;
+    background-color: navajowhite;
+    line-height: 2em;
+}
+section#nextback {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+div.nextbackresume1, div.nextbackresume2, div.nextbackessay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+div.nb {
+    text-align: center;
+    width: 30%;
+    line-height: 2em;
+} 
+a#navlinkspecial {font-size: smaller;
+color: darkslategray;}
+a#navlinktwice {
+    background-color: blanchedalmond;
+}
