@@ -34,18 +34,6 @@ myitem2 = document.getElementById("secondtest");
         otheritem.style.color = "red";  
     }
     
-//now adding a second button for the essay thesis on the Essay page
-    thebutton2 = document.getElementById("thebutton2");  
-    otheritem2 = document.getElementById("buttontest2");
-
-    thebutton2.addEventListener("click", onButton2Click);
-    function onButton2Click() {  
-    otheritem2.style.color = "red";  
-    }
-    function onButton2Click() {
-    otheritem2.innerHTML = "I clicked the button";
-    }   
-
 // input text function from the bottom of the Essay page
     
 textentry = document.getElementById("myinput");  

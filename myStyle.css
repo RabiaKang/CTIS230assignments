@@ -38,41 +38,40 @@ p.conclusion {
     font-style: oblique;
     font-weight: 700;
 }
- 
-img#blahblahblah {  
+@media (min-width: 750px){
+ img#blahblahblah {  
     width:55%; 
     float: left; 
     margin-right: 1cm;
-  margin-left: 0.7cm;
-
-}
+  margin-left: 0.7cm;}
 img#pampampam {
     width: 40%;
-  float: right;
-}
+  float: right;}   
+img#hallelujah {
+    float: right;
+    width: 30%;
+    margin-right: 2cm;
+    margin-top: 1cm;}
+img#peanutbutter, img#evillaugh{
+    float: right;}
+img#evillaugh {
+    margin-left: 7px; }
+img:hover {
+    width: 5in;}
+img#pampampam:hover {
+  width: auto;}
+} 
+
 h2#itbemyname {
     letter-spacing: 8px;
 }
 ol li {  
     margin-bottom: 0.3em;  
 }
-img#hallelujah {
-    float: right;
-    width: 30%;
-    margin-right: 2cm;
-    margin-top: 1cm;
-}
-img#peanutbutter, img#evillaugh{
-    float: right;
-}
-img#evillaugh {
-    margin-left: 7px;   
-}
 p.essayheader {background: #evillaugh; width: 300px;
      height:100px; padding: 12px;
     border:5px ridge darkslategray; margin:20px;
 }
- 
 a#mixxmixx:visited {
 color: purple;
 font-style: italic;
@@ -80,12 +79,7 @@ font-style: italic;
 ol.firsttest {
     line-height: 1.2cm;
 }
-img:hover {
-    width: 5in;
-}
-img#pampampam:hover {
-  width: auto;
-}
+
 ol li:hover {
     font-size: 1.2em;
 }
@@ -174,4 +168,21 @@ color: darkslategray;}
 a#navlinktwice {
     background-color: blanchedalmond;
     
+}
+/* use a media query to ask how big the viewport is */
+@media (max-width:750px) {/*these rules take
+    effect when viewport is small*/
+body{
+    margin-left: 0px;
+    margin-right: 0px;    }
+    img {float: center; text-align: center;}
+    .centerimage {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+}
+@media screen and (orientation: portrait){
+h1,h2,h3 {text-align: center;}
 }
