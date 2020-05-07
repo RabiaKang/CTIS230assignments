@@ -8,7 +8,7 @@ body {
 }
 h3 {  
     color:darkslategray; 
-    border: 3mm darkslategray ridge solid;
+   
    
 }
 em {
@@ -19,12 +19,12 @@ a:link {
     color:darkslategray;  
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p.intro, p.body1, p.body2, p.body3, p.body4, p.body5 {text-indent: 3em;}
+p#buttontest2, p.body1, p.body2, p.body3, p.body4, p.body5 {text-indent: 3em;}
 image {
         border-image-width: auto;
 }
 h1, h2 {
-    border: 3mm darkslategray ridge solid;
+   
     color:darkslategray;
     width:fit-content;
    font-style:italic;
@@ -68,8 +68,8 @@ img#peanutbutter, img#evillaugh{
 img#evillaugh {
     margin-left: 7px;   
 }
-p.essayheader {backround: #evillaugh; width: 300px;
-     height:150 px; padding: 12px;
+p.essayheader {background: #evillaugh; width: 300px;
+     height:100px; padding: 12px;
     border:5px ridge darkslategray; margin:20px;
 }
  
@@ -77,7 +77,7 @@ a#mixxmixx:visited {
 color: purple;
 font-style: italic;
 }
-ol.sectionslist {
+ol.firsttest {
     line-height: 1.2cm;
 }
 img:hover {
@@ -89,7 +89,7 @@ img#pampampam:hover {
 ol li:hover {
     font-size: 1.2em;
 }
-p.intro:first-letter {
+p#buttontest2:first-letter {
     font-size: 2em;
 }
 h2#itbemyname {
@@ -173,4 +173,5 @@ a#navlinkspecial {font-size: smaller;
 color: darkslategray;}
 a#navlinktwice {
     background-color: blanchedalmond;
+    
 }
