@@ -48,3 +48,18 @@ function onChange(){
     newtext = textentry.value;
     myitem.innerHTML = newtext;
 }
+theBigImage = document.getElementById("largeview")
+theImgDiv.addEventListener("click",makeBigImage);
+function makeBigImage(){
+    //make a new img element  to add to our section element
+    bigimage = document.createElement("img");
+    bigimage.src = "images/angela.jpg";
+    theBigImage.appendChild(bigimage);//add img element to the section
+    myBigImage.classList.remove("dontshow");//tell section it's no longer part of the dontshow class
+
+}
+theBigImage.addEventListener("click", hideBigImage);
+function hideBigImage(){
+    theBigImage.classList.add("dontshow"); 
+    theBigImage.innerHTML = "";
+}
