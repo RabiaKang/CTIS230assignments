@@ -17,4 +17,4 @@ myitem = document.getElementById("firsttest");
     thebutton.addEventListener("click", onButtonClick);
     function onButtonClick() {  
         otheritem.style.color = "red";  
-    }
+    } 
