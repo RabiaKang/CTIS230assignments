@@ -16,7 +16,7 @@ img#nam {width: 40%;
     img#nam:hover {
         width: 4in;
     }
-section {
+section { 
    background-color: navajowhite;}
 section#topsection {
     background-image: url(images/hangul1.jpg);
@@ -75,6 +75,7 @@ div.nb {
 .redText{    color: red;}
 .blueText {color:blue; }
 .purpleText {color:purple}
+.greenText {color:green;}
 p#centeralign {text-align: center;}
 p#letters {text-align: center;margin-right: 3in;}
 
