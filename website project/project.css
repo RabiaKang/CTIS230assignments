@@ -15,7 +15,7 @@ h2#home {background-color: navajowhite; width:fit-content;
 @media (min-width: 750px){
     img#nam, img#clock, img#hello {width: 40%;
     float: right;}
-    
+     
     img#left {float: left;}
     img#center {
         display: block;
